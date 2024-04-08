@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="main-app d-flex flex-row ">
+    <nav class="nav">
+      <div class="nav-logo my-5"></div>
+      <div id="linkList" class="d-flex flex-column align-items-center">
+        <img width="40" height="40" class="link active" id="frame"
+          src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/frame.svg"
+          alt="">
+        <img width="40px" height="40px" class="link" id="folder"
+          src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/folder.svg"
+          alt="">
+        <img width="40px" height="40px" class="link" id="mail"
+          src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/mail.svg"
+          alt="">
+        <div class="dark-mode" id="dark-mode">
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="title">
+        <h1 class="my-5" style="font-size:3rem;">Campaign</h1>
+      </div>
+      <div class="main-table">
+        <table>
+          <thead>
+            <tr>
+              <th> <img
+                  src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/checkbox.svg"
+                  alt="">
+              </th>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Advertiser <p>Group</p>
+              </th>
+              <th>Description</th>
+              <th>
+                <span class="th-title">Price</span>
+                <img class="th-icon"
+                  src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/sort.svg"
+                  alt="">
+              </th>
+              <th>
+                <span class="th-title">Start Time</span>
+                <img class="th-icon"
+                  src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/sort.svg"
+                  alt="">
+              </th>
+              <th>
+                <span class="th-title">End Time</span>
+                <img class="th-icon"
+                  src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/sort.svg"
+                  alt="">
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody id="tbody-rows" class="tbody-rows">
+            <tr class="tbody-row">
+              <td>
+                <input type="checkbox" class="checkbox">
+              </td>
+              <td>1</td>
+              <td>Christmas 2020</td>
+              <td>Food Market <p>Krab</p>
+              </td>
+              <td>holiday night during chr...</td>
+              <td>$2000</td>
+              <td>2020/12/24 19:30</td>
+              <td>2021/01/02 23:00</td>
+              <td class="td-menu">
+                <img class="menu-icon " id="menu-icon"
+                  src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/menu.svg"
+                  alt="">
+                <div class="menu-container d-none">
+                  <menu class="menu-body">
+                    <menuitem class="menu-item">
+                    <img
+                      src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/duplicate.svg"
+                      alt="">
+                    <span>Duplicate</span>
+                    </menuitem>
+                    <menuitem class="menu-item">
+                    <img
+                      src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/edit.svg"
+                      alt="">
+                    <span>Edit</span>
+                    </menuitem>
+                    <menuitem class="menu-item">
+                    <img
+                      src="https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/delete.svg"
+                      alt="">
+                    <span>Delete</span>
+                    </menuitem>
+                  </menu>
+
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+    </main>
+  </div>
+
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
