@@ -4,7 +4,7 @@ git clone : https://github.com/se040054/ad-layout-practice
 
 ---
 
-if you want to modify something , you will need this : https://github.com/se040054/ad-layout-practive
+if you want to modify something , you will need this : https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
 
 ___
